@@ -1,0 +1,23 @@
+.landing-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .landing-links {
+    width: 100%;
+    text-align: center;
+  }
+  button{
+    font-size: 18px;
+  }
+
+  button:active {
+    box-shadow: lightgreen 3px 3px 7px;
+    background-color: rgba(lightgreen, 0.4);
+    color: darkgreen;
+    &:active {
+      box-shadow: lightgreen 0 0 5px;
+    }
+  }

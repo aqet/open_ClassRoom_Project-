@@ -1,0 +1,1 @@
+export type snap_type = 'snap' | 'unSnap'
